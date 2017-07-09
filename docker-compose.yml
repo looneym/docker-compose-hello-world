@@ -1,7 +1,7 @@
 web:
         build: ./server
         ports:
-                - "8080:8080"
+                - "80:80"
         links:
                 - redis
 

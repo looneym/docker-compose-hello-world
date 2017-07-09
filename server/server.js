@@ -8,4 +8,4 @@ http.createServer(function (req, res) {
             res.end(counter);	
 		});
 	});
-}).listen(8080);
+}).listen(80);
